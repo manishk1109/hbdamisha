@@ -9,9 +9,12 @@
 </head>
 
 <body>
-     <audio  autoplay loop>
-    <source src="hbdbg.mp3" type="audio/mp3">
-   </audio>
+    <script>
+    let audio = new Audio('hbdbg.mp3'); // Replace with your music file path
+    audio.loop = true;
+    audio.autoplay = true;
+    audio.load()
+   </script>
 
     <div class="container">
         <div class="card">
